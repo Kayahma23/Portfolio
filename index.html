@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDwpuYBiqRuBWTaOkDNP1jGxUQA1sWht0w",
+            authDomain: "porfolio-1696e.firebaseapp.com",
+            databaseURL: "https://porfolio-1696e.firebaseio.com",
+            projectId: "porfolio-1696e",
+            storageBucket: "",
+            messagingSenderId: "359645300659"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <title>Kayahma's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="index.css" rel="stylesheet">
+    <style>
+    </style>
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Kayahma Brown</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section2">About Me</a></li>
+                        <li><a href="#section3">Portfolio</a></li>
+                        <li><a href="#section4">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="section-7" class="container-fluid">
+        <h1>Kayahma Brown</h1>
+        <img class="img-responsive img-circle portrait" src="DSC_0255 (3).JPG" width="200" height="100" style="max-width: 100%; 
+        max-height: 100%; display:block; margin:auto;">
+
+
+    </div>
+    <div id="section2" class="container-fluid">
+        <h1>About Me/About This Page</h1>
+        <h4> I am a senior at Uncommon Charter High School. I am a sneaker enthusiast who also is a nerd at heart.The reason why I was hesitant in sending this off with my application was because it wasn't completed, but after I thought about it, I realised
+            that sending something was better than nothing. This page a sudo prototype. I haven't finished it yet, but I do plan on getting this page live, through Google's firebase application.<br> You can access each game by clicking on the image and
+            access the code by clicking on the "source button." I haven't gotten the "live button" working yet, but I will. The rock-paper-scissors game works, but only in the console(NEVERMIND I FIXED IT,AGAIN). The one problem I am trying to fix as
+            of now is getting each separate page to pop up instead of having to refresh and go back each time a person wants to see the portfolio again(NEVERMIND I FIXED IT, I had to use target="_blank" to the "a" tag). But this is a rough sketch of what
+            I want my portfolio to look like. If this is not accessible, because it's in my personal account and not live my email and username are available.<br> Rock-Paper-Scissors centers around mainly this statement "Math.floor(Math.random() * 3)"
+            which allows the computer to generate random answers against the user.
+            <br> Giphy Page: I used the giphy api to pull data from their website when words are searched.<br> The story behind the Waterflow project: I was given a theme this being code for change. I chose to talk about the water crisis in Flint and
+            made a game about collecting clean water around the U.S and sending it to these cities in the U.S where led has been found in the water. <br> Update: You can't access my "source" code without my github account so the username is kayahma23
+            and password uncommon5373 </h4>
+    </div>
+
+
+
+
+    <section id="section3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Computer Science Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <div class="thumbnail">
+                        <h4 class="text-center">Rock-Paper-Scissors</h4>
+
+                        <div class="caption text-center">
+                            <a href="https://preview.c9users.io/kayahma23/rock-scissors-paper/index.html?_c9_id=livepreview2&_c9_host=https://ide.c9.io" target="_blank"> <img src="Capture.PNG" alt="Rock-Paper-Scissors" class="img" /> Rock-Paper-Scissors </a>
+                            <button class="btn btn-outline"> Live Site </button>
+
+                            <a href="https://ide.c9.io/kayahma23/rock-scissors-paper" target="_blank"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <div class="thumbnail">
+                        <h4 class="text-center">Waterflow</h4>
+                        <div class="caption text-center">
+                            <a href="https://preview.c9users.io/kayahma23/waterflow/js/panda.js-engine-games/endlessrunner/index.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io" target="_blank"> <img  src="Capture1.PNG" alt="Water Crisis" class="img" /> Water Crisis   </a>
+                            <button class="btn btn-outline"> Live Site </button>
+                            <a href="https://ide.c9.io/kayahma23/waterflow" target="_blank"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4 portfolio-item">
+                    <div class="thumbnail">
+                        <h4 class="text-center">Giphy</h4>
+                        <div class="caption text-center">
+                            <a href="https://preview.c9users.io/kayahma23/giph/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io" target="_blank"> 
+                                    <img src="Capture2.PNG" alt="Giphy" class="img"/> Giphy </a>
+                            <button class="btn btn-outline"> Live Site </button>
+                            <a href="https://ide.c9.io/kayahma23/giph" target="_blank"> 
+                                <button class="btn btn-outline"> Source </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+
+
+
+
+
+    <div id="section4" class="container-fluid">
+        <h1>Contact Me</h1>
+        <section id="social">
+            <div class="col-sm-6">
+                <center>
+                    <ul>
+                        <li>
+
+                            <a href="https://www.facebook.com" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" alt="Facebook" class="button" style="text-align:left"/> </a>
+
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/295px-Twitter_bird_logo_2012.svg.png" alt="Twitter" class="button" /> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2000px-Instagram_logo_2016.svg.png" alt="Instagram" class="button" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="LinkedIn" class="button" /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Github" class="button" /></a>
+                        </li>
+
+                    </ul>
+                </center>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
